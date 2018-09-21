@@ -10,3 +10,17 @@ body{
   background-position: center;
   opacity: 0.9;
 }
+.container{
+  background-color: blue;
+}
+.page1 img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 3px solid #ffff;
+
+}
+/* ----------------------------------------------------------------------- */
+.second,.third{
+  display:none;
+}
