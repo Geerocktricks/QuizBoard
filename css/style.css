@@ -73,6 +73,7 @@ body{
   /* border-radius: 20%; */
   cursor: pointer;
   margin: 20px;
+  /* transition: transform 5s */
 }
 .login button:hover{
   color: #e3e3e3;
