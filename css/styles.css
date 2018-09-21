@@ -5,13 +5,16 @@
 }
 body{
   /* background-image: linear-gradient(#bdc2c9, #071a3a); */
-  /* background-image: url(../images/login-back.jpg); */
+   background-image: url(../images/login-back.jpg); */
   background-size: cover;
   background-position: center;
   opacity: 0.9;
 }
 .container{
-  background-color: blue;
+  background-color:#4f5d7a;
+  opacity: .9;
+  -margin-top: 40px;
+
 }
 .page1 img{
   height: 100px;
@@ -21,6 +24,24 @@ body{
 
 }
 /* ----------------------------------------------------------------------- */
-.second,.third{
+.second,.third,.details1,.details2{
   display:none;
+}
+.first,.second,.third{
+  padding: 30px;
+}
+/*  ------------------------------------------------------------------------*/
+.details{
+
+}
+.details img, .details1 img,.details2 img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  transform: translate(120%,20%);
+}
+/*  -------------------------------------------*/
+.content{
+  margin: 40px;
+  height:290px;
 }
