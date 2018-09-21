@@ -1,0 +1,80 @@
+/*--------------------root-------------------*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  /* background-image: linear-gradient(#bdc2c9, #071a3a); */
+  background-image: url(../images/login-back.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+/*---------------------------login-------------------*/
+.login{
+  height: 420px;
+  width: 320px;
+  background-image: linear-gradient(#bdc2c9, #071a3a);
+  transform: translate(150%, 40%);
+
+}
+.image{
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  border: 1px solid #ffff;
+  border-radius: 50%;
+  transform: translate(55%, -55%);
+  background-image: url(../images/login.png);
+  background-size: cover;
+}
+.login form{
+  transform: translate(10%, -30%);
+  padding: 40px;
+}
+.login h5{
+  color: #ffff;
+  font-size: 25px;
+  transform: translate(10%,-40%);
+}
+.login li{
+  text-decoration: none;
+  list-style: none;
+}
+.login label{
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffff;
+}
+.login input{
+  /* width:100%; */
+  margin-bottom: 20px;
+}
+#Password ,#Name {
+  /* width: 100%; */
+  border:none;
+  border-bottom: 1px solid #ffff;
+  background: transparent;
+  outline: none;
+  color: #ffff;
+  transition: transform .5s;
+}
+#Password:hover ,#Name:hover {
+  transform: scale(1.1);
+}
+.login button{
+  height: 40px;
+  width: 150px;
+  color: #ffff;
+  background-color:#27384f;
+  border: none;
+  -border: 1px solid rgba(0,0,0,.1);
+  box-shadow: 0 2px 0 rgba(0,0,0,.1)
+  /* border-radius: 20%; */
+  cursor: pointer;
+  margin: 20px;
+}
+.login button:hover{
+  color: #e3e3e3;
+  background-color: #031328;
+}
