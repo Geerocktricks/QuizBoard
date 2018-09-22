@@ -11,10 +11,14 @@ body{
   opacity: 0.9;
 }
 .container{
-  background-color:#4f5d7a;
+  /* background-color:#4f5d7a; */
   opacity: .9;
   -margin-top: 40px;
 
+}
+.details,.first{
+  /* background-color:#4f5d7a; */
+  /* height: 100%; */
 }
 .page1 img{
   height: 100px;
@@ -25,7 +29,7 @@ body{
 }
 /* ----------------------------------------------------------------------- */
 .second,.third,.details1,.details2{
-  display:none;
+  /* display:none; */
 }
 .first,.second,.third{
   padding: 30px;

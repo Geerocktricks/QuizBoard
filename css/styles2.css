@@ -6,8 +6,9 @@
 body{
   /* background-image: linear-gradient(#bdc2c9, #071a3a); */
   background-image: url(../images/login-back.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  /* 2background-position: center; */
   opacity: 0.9;
 }
 /*  ==================================================================*/
