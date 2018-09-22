@@ -1,0 +1,16 @@
+/*--------------------root-------------------*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  /* background-image: linear-gradient(#bdc2c9, #071a3a); */
+  background-image: url(../images/login-back.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+/*  ==================================================================*/
+#second-p,#third-p,#fourth-p{
+  display: none;
+}

@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 bg-light p-4 rounded">
-          <div id="first">
+          <div id="first-p">
             <div class="progress-bar bg-danger rounded mb-2 role="progressbar" style=width:20% id="ProgressBar">
               <b class="lead" id="ProgressPersent">25%</b>
 
@@ -50,10 +50,10 @@
               </div>
             </form>
             <div class="form-group">
-                <a href="page2.html" class="btn btn-success" id="Next1">Next</a>
+                <a href="#" class="btn btn-success" id="Next1">Next</a>
             </div>
           </div>
-          <div id="second">
+          <div id ="second-p">
             <div class="progress-bar bg-danger rounded mb-2 role="progressbar" style=width:50% id="ProgressBar">
               <b class="lead" id="ProgressPersent">50%</b>
 
@@ -88,10 +88,10 @@
             </form>
             <div class="form-group">
                 <a href="#" class="btn btn-danger" id="previous-1">previous</a>
-                <a href="page2.html" class="btn btn-success" id="Next2">Next</a>
+                <a href="#" class="btn btn-success" id="Next2">Next</a>
             </div>
           </div>
-          <div id="third">
+          <div id="third-p">
             <div class="progress-bar bg-danger rounded mb-2 role="progressbar" style=width:75% id="ProgressBar">
               <b class="lead" id="ProgressPersent">75%</b>
 
@@ -126,10 +126,10 @@
             </form>
             <div class="form-group">
                 <a href="#" class="btn btn-danger" id="previous-2">previous</a>
-                <a href="page2.html" class="btn btn-success" id="Next3">Next</a>
+                <a href="#" class="btn btn-success" id="Next3">Next</a>
             </div>
           </div>
-          <div id="fourth">
+          <div id="fourth-p">
             <div class="progress-bar bg-danger rounded mb-2 role="progressbar" style=width:100% id="ProgressBar">
               <b class="lead" id="ProgressPersent">100%</b>
 
@@ -151,6 +151,22 @@
       </div>
 
     </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("#Next1").click(function(){
+        $("#second-p").show();
+        $("#first-p").hide();
+      });
+
+      $("#Next2").click(function(){
+        $("#third-p").show();
+        $("#second-p").hide();
+      });
+
+      
+    });
+
+    </script>
 
   </body>
 </html>
