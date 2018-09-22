@@ -145,6 +145,7 @@
               </div>
             </form>
             <div class="form-group">
+                <a href="#" class="btn btn-danger" id="previous-3">previous</a>
                 <a href="page2.html" class="btn btn-success" id="submit">submit</a>
             </div>
           </div>
@@ -158,12 +159,38 @@
         $("#first-p").hide();
       });
 
+
       $("#Next2").click(function(){
         $("#third-p").show();
         $("#second-p").hide();
       });
 
-      
+      $("#previous-1").click(function(){
+        $("#first-p").show();
+        $("#second-p").hide();
+
+      });
+
+      $("#previous-2").click(function(){
+        $("#second-p").show();
+        $("#third-p").hide();
+
+
+      });
+
+      $("#previous-3").click(function(){
+        $("#third-p").show();
+        $("#fourth-p").hide();
+
+
+      });
+
+      $("#Next3").click(function(){
+        $("#fourth-p").show();
+        $("#third-p").hide();
+      });
+
+
     });
 
     </script>
