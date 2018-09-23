@@ -51,7 +51,7 @@ body{
   margin-bottom: 20px;
 }
 #Password ,#Name {
-  
+
   border:none;
   border-bottom: 1px solid #ffff;
   background: transparent;
@@ -76,4 +76,5 @@ body{
 .login button:hover{
   color: #e3e3e3;
   background-color: #031328;
+  box-shadow: 0 3px 4px rgba(0,0,0,.6);
 }
