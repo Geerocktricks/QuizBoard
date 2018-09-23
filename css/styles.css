@@ -5,13 +5,15 @@
 }
 body{
   /* background-image: linear-gradient(#bdc2c9, #071a3a); */
-   background-image: url(../images/login-back.jpg); */
+   background-image: url(../images/login-back.jpg);
+   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
+
   opacity: 0.9;
 }
 .container{
-  /* background-color:#4f5d7a; */
+  background-color:#4f5d7a;
   opacity: .9;
   -margin-top: 40px;
 
@@ -20,7 +22,7 @@ body{
   /* background-color:#4f5d7a; */
   /* height: 100%; */
 }
-.page1 img{
+ img{
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -28,15 +30,21 @@ body{
 
 }
 /* ----------------------------------------------------------------------- */
-.second,.third,.details1,.details2{
-  /* display:none; */
+p{
+  height: 300px;
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
 }
-.first,.second,.third{
-  padding: 30px;
+h5,h6{
+  color: #ffff;
 }
 /*  ------------------------------------------------------------------------*/
-.details{
-
+.Details1,.Details2,.Details3{
+  height: 700px;
+}
+.Details2,.Details3{
+  visibility: hidden;
 }
 .details img, .details1 img,.details2 img{
   height: 200px;
