@@ -18,6 +18,17 @@ body{
 #fifth-p{
   visibility: hidden;
 }
-span{
-  font-size: 50px;
+.btn{
+  height: 40px;
+  width: 150px;
+  color: #ffff;
+  background-color:#999ea8;
+  border: none;
+  -border: 1px solid rgba(0,0,0,.1);
+  box-shadow: 0 2px 0 rgba(0,0,0,.1)
+  cursor: pointer;
+  margin: 20px;
+}
+.btn:hover{
+  box-shadow: 0 3px 4px rgba(0,0,0,.6);
 }
