@@ -16,7 +16,7 @@
     <div class="container col-md-8" >
       <div class="row justify-content-center ">
         <!-- image and other stylings go in here -->
-        <div class="Details1 col-md-10">
+        <div class="Details1 id="first" col-md-10">
           <img src="images/loggedAs.jpg" alt="mememememe">
           <h5>Logged in as..</h5>
           <h6>Geerocktricks</h6>
@@ -35,7 +35,7 @@
             <a href="page2.html" class="btn btn-success" id="Take-quiz">Take Quiz</a>
           </div>
         </div>
-        <div class="Details2 col-md-10">
+        <div class="Details2 id="second" col-md-10">
           <img src="images/loggedAs.jpg" alt="mememememe">
           <h5>Logged in as..</h5>
           <h6>Geerocktricks</h6>
@@ -50,7 +50,7 @@
             </p>
           </div>
           <div class="content2">
-            <a href="#" class="btn btn-danger" id="back-1">Quit</a>
+            <a href="#" class="btn btn-danger" id="back-2">Quit</a>
             <a href="page2.html" class="btn btn-success" id="Take-quiz">Take Quiz</a>
           </div>
         </div>
@@ -75,5 +75,15 @@
 
       </div>
     </div>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#back-1").click(function(){
+          $(".Details1").hide();
+          $(".Details2").show();
+        });
+
+
+      });
+    </script>
   </body>
 </html>

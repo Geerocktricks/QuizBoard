@@ -39,12 +39,16 @@ p{
 h5,h6{
   color: #ffff;
 }
+img,h5,h6{
+  margin-left: 400px;
+  margin-top: 20px;
+}
 /*  ------------------------------------------------------------------------*/
 .Details1,.Details2,.Details3{
-  height: 700px;
+  /* height: 700px; */
 }
 .Details2,.Details3{
-  visibility: hidden;
+  display: none;
 }
 .details img, .details1 img,.details2 img{
   height: 200px;
