@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <title>QuizBoard</title>
     <link rel="stylesheet" href="css/styles2.css">
-    <link rel="stylesheet" href="js/script.js">
+
   </head>
   <body >
     <div class="container">
@@ -22,33 +22,32 @@
 
             </div>
             <h4 class="text-center bg-primary p-1 rounded text-light">1/4</h4>
-            <form action="" method="post" id="form-data">
+            <form id="Quiz" action="" method="post" name="Quiz">
               <div class="form-group">
-                <label for="firtquestion"><b>1. Why so JavaScript and Java have similar name?</b></label><br>
-                <input type="radio" name="radio" id="firtquestion"> JavaScript is a stripped-down version of Java.<br>
-                <input type="radio" name="radio" id="firtquestion"> JavaScript's syntax is loosely based on Java's.<br>
-                <input type="radio" name="radio" id="firtquestion"> They both originated on the island of Java.<br>
-                <input type="radio" name="radio" id="firtquestion"> None of the above.<br>
+                <label for="firstquestion"><b>1. Why so JavaScript and Java have similar name?</b></label><br>
+                <input type="radio" name="question1" id="mc" value="wrong"> JavaScript is a stripped-down version of Java.<br>
+                <input type="radio" name="question1" id="mc" value="right"> JavaScript's syntax is loosely based on Java's.<br>
+                <input type="radio" name="question1" id="mc" value="wrong"> They both originated on the island of Java.<br>
+                <input type="radio" name="question1" id="mc" value="wrong"> None of the above.<br>
               </div>
-            </form>
-            <form action="" method="post" id="form-data">
+
+
               <div class="form-group">
                 <label for="secondquestion"><b>2. When a user views a page containing a JavaScript program, which machine actually executes the script?</b></label><br>
-                <input type="radio" name="radio" id="secondquestion"> The user's machine running a web browser.<br>
-                <input type="radio" name="radio" id="secondquestion"> The web server.<br>
-                <input type="radio" name="radio" id="secondquestion"> A central machine deep within netscape's corporate offces.<br>
-                <input type="radio" name="radio" id="secondquestion"> None of the above.<br>
+                <input type="radio" name="question2" id="mc" value="right"> The user's machine running a web browser.<br>
+                <input type="radio" name="question2" id="mc" value="wrong"> The web server.<br>
+                <input type="radio" name="question2" id="mc" value="wrong"> A central machine deep within netscape's corporate offces.<br>
+                <input type="radio" name="question2" id="mc" value="wrong"> None of the above.<br>
               </div>
-            </form>
-            <form action="" method="post" id="form-data">
+
               <div class="form-group">
                 <label for="thirdquestion"><b>3.  ________JavaScript is also called client-side JavaScript.</b></label><br>
-                <input type="radio" name="radio" id="thirdquestion"> Microsoft.<br>
-                <input type="radio" name="radio" id="thirdquestion"> Navigator.<br>
-                <input type="radio" name="radio" id="thirdquestion"> LiveWire.<br>
-                <input type="radio" name="radio" id="thirdquestion"> Native.<br>
+                <input type="radio" name="question3" id="mc" value="wrong"> Microsoft.<br>
+                <input type="radio" name="question3" id="mc" value="right"> Navigator.<br>
+                <input type="radio" name="question3" id="mc" value="wrong"> LiveWire.<br>
+                <input type="radio" name="question3" id="mc" value="wrong"> Native.<br>
               </div>
-            </form>
+
             <div class="form-group">
                 <a href="#" class="btn btn-success" id="Next1">Next</a>
             </div>
@@ -59,34 +58,33 @@
 
             </div>
             <h4 class="text-center bg-primary p-1 rounded text-light">2/4</h4>
-            <form action="" method="post" id="form-data">
+
               <div class="form-group">
-                <label for="firtquestion"><b> 4. __________JavaScript is also called server-side JavaScript.</b></label><br>
-                <input type="radio" name="radio" id="fortquestion"> Microsoft.<br>
-                <input type="radio" name="radio" id="forthquestion"> Navigator.<br>
-                <input type="radio" name="radio" id="forthquestion"> LiveWire.<br>
-                <input type="radio" name="radio" id="forthquestion"> Native.<br>
+                <label for="fortquestion"><b> 4. __________JavaScript is also called server-side JavaScript.</b></label><br>
+                <input type="radio" name="question4" id="mc" value="wrong"> Microsoft.<br>
+                <input type="radio" name="question4" id="mc" value="wrong"> Navigator.<br>
+                <input type="radio" name="question4" id="mc" value="right"> LiveWire.<br>
+                <input type="radio" name="question4" id="mc" value="wrong"> Native.<br>
               </div>
-            </form>
-            <form action="" method="post" id="form-data">
+
               <div class="form-group">
                 <label for="secondquestion"><b>5. What are variables used for in JavaScript programs?
 </b></label><br>
-                <input type="radio" name="radio" id="secondquestion"> Storing numbers, dates or other values.<br>
-                <input type="radio" name="radio" id="secondquestion"> Varying randomly.<br>
-                <input type="radio" name="radio" id="secondquestion"> Causing high-school algebra flashbacks.<br>
-                <input type="radio" name="radio" id="secondquestion"> None of the above.<br>
+                <input type="radio" name="question5" id="mc" value="right"> Storing numbers, dates or other values.<br>
+                <input type="radio" name="question5" id="mc" value="wrong"> Varying randomly.<br>
+                <input type="radio" name="question5" id="mc" value="wrong"> Causing high-school algebra flashbacks.<br>
+                <input type="radio" name="question5" id="mc" value="wrong"> None of the above.<br>
               </div>
-            </form>
-            <form action="" method="post" id="form-data">
+
+
               <div class="form-group">
-                <label for="thirdquestion"><b>6.Javascript is _________ language..</b></label><br>
-                <input type="radio" name="radio" id="thirdquestion"> Programming.<br>
-                <input type="radio" name="radio" id="thirdquestion"> Application.<br>
-                <input type="radio" name="radio" id="thirdquestion"> None of the above.<br>
-                <input type="radio" name="radio" id="thirdquestion"> Scripting.<br>
+                <label for="sixthquestion"><b>6.Javascript is _________ language..</b></label><br>
+                <input type="radio" name="question6" id="mc" value="wrong"> Programming.<br>
+                <input type="radio" name="question6" id="mc" value="wrong"> Application.<br>
+                <input type="radio" name="question6" id="mc" value="wrong"> None of the above.<br>
+                <input type="radio" name="question6" id="mc" value="right"> Scripting.<br>
               </div>
-            </form>
+
             <div class="form-group">
                 <a href="#" class="btn btn-danger" id="previous-1">previous</a>
                 <a href="#" class="btn btn-success" id="Next2">Next</a>
@@ -98,33 +96,32 @@
 
             </div>
             <h4 class="text-center bg-primary p-1 rounded text-light">3/4</h4>
-            <form action="" method="post" id="form-data">
+
               <div class="form-group">
-                <label for="firtquestion"><b>7. JavaScript is ______ Side Scripting Language.</b></label><br>
-                <input type="radio" name="radio" id="firtquestion"> Server.<br>
-                <input type="radio" name="radio" id="firtquestion"> ISP.<br>
-                <input type="radio" name="radio" id="firtquestion"> None of the above.<br>
-                <input type="radio" name="radio" id="firtquestion"> Browser.<br>
+                <label for="seventhquestion"><b>7. JavaScript is ______ Side Scripting Language.</b></label><br>
+                <input type="radio" name="question7" id="mc" value="wrong"> Server.<br>
+                <input type="radio" name="question7" id="mc" value="wrong"> ISP.<br>
+                <input type="radio" name="question7" id="mc" value="wrong"> None of the above.<br>
+                <input type="radio" name="question7" id="mc" value="right"> Browser.<br>
               </div>
-            </form>
-            <form action="" method="post" id="form-data">
+
+
               <div class="form-group">
-                <label for="secondquestion"><b>8. JavaScript is designed for following purpose -</b></label><br>
-                <input type="radio" name="radio" id="secondquestion"> To Style HTML Pages.<br>
-                <input type="radio" name="radio" id="secondquestion"> To add interactivity to HTML Pages.<br>
-                <input type="radio" name="radio" id="secondquestion"> To Perform Server Side Scripting Opertion.<br>
-                <input type="radio" name="radio" id="secondquestion"> To Execute Query Related to DB on Server.<br>
+                <label for="eighthquestion"><b>8. JavaScript is designed for following purpose -</b></label><br>
+                <input type="radio" name="question8" id="mc" value="wrong"> To Style HTML Pages.<br>
+                <input type="radio" name="question8" id="mc" value="right"> To add interactivity to HTML Pages.<br>
+                <input type="radio" name="question8" id="mc" value="wrong"> To Perform Server Side Scripting Opertion.<br>
+                <input type="radio" name="question8" id="mc" value="wrong"> To Execute Query Related to DB on Server.<br>
               </div>
-            </form>
-            <form action="" method="post" id="form-data">
+            >
               <div class="form-group">
-                <label for="thirdquestion"><b>9. JavaScript Code is written inside file having extension __________. </b></label><br>
-                <input type="radio" name="radio" id="thirdquestion"> .jvs.<br>
-                <input type="radio" name="radio" id="thirdquestion"> .javascript.<br>
-                <input type="radio" name="radio" id="thirdquestion"> .js.<br>
-                <input type="radio" name="radio" id="thirdquestion"> .jsc.<br>
+                <label for="ninethquestion"><b>9. JavaScript Code is written inside file having extension _______</b></label><br>
+                <input type="radio" name="question9" id="mc" value="wrong"> .jvs.<br>
+                <input type="radio" name="question9" id="mc" value="wrong"> .javascript.<br>
+                <input type="radio" name="question9" id="mc" value="right"> .js.<br>
+                <input type="radio" name="question9" id="mc" value="wrong"> .jsc.<br>
               </div>
-            </form>
+
             <div class="form-group">
                 <a href="#" class="btn btn-danger" id="previous-2">previous</a>
                 <a href="#" class="btn btn-success" id="Next3">Next</a>
@@ -136,19 +133,23 @@
 
             </div>
             <h4 class="text-center bg-primary p-1 rounded text-light">4/4</h4>
-            <form action="" method="post" id="form-data">
+
               <div class="form-group">
-                <label for="firtquestion"><b>10. Why JavaScript is called as Lightweight Programming Language ?</b></label><br>
-                <input type="radio" name="radio" id="firtquestion"> because JS is available free of cost..<br>
-                <input type="radio" name="radio" id="firtquestion"> because JS is client side scripting.<br>
-                <input type="radio" name="radio" id="firtquestion"> because we can add programming functionality inside JS.<br>
-                <input type="radio" name="radio" id="firtquestion"> because JS can provide programming functionality inside but up to certain extend..<br>
+                <label for="tenthquestion"><b>10. Why JavaScript is called as Lightweight Programming Language ?</b></label><br>
+                <input type="radio" name="question10" id="mc" value="wrong"> because JS is available free of cost..<br>
+                <input type="radio" name="question10" id="mc" value="wrong"> because JS is client side scripting.<br>
+                <input type="radio" name="question10" id="mc" value="wrong"> because we can add programming functionality inside JS.<br>
+                <input type="radio" name="question10" id="mc" value="right"> because JS can provide programming functionality inside but up to certain extend..<br>
               </div>
             </form>
             <div class="form-group">
                 <a href="#" class="btn btn-danger" id="previous-3">previous</a>
-                <a href="page2.html" class="btn btn-success" id="submit">submit</a>
+                <a href="#" class="btn btn-success" id="submit" onclick="check();">submit</a>
+                <!-- <input type="button" name="" class="btn btn-success" value="submit" id="button" onclick="check();"> -->
             </div>
+          </div>
+          <div id="fifth-p">
+            <p id="correctNumber">Your score is: </p>
           </div>
       </div>
 
@@ -190,11 +191,66 @@
         $("#fourth-p").show();
         $("#third-p").hide();
       });
+      $("#submit").click(function(){
+        $("#fifth-p").show();
+        $("#fourth-p").hide();
+      });
+
 
 
     });
 
+
+    /*  ==============================Business logic====================================*/
+    function check(){
+      var question1= document.Quiz.question1.value;
+      var question2= document.Quiz.question2.value;
+      var question3= document.Quiz.question3.value;
+      var question4= document.Quiz.question4.value;
+      var question5= document.Quiz.question5.value;
+      var question6= document.Quiz.question6.value;
+      var question7= document.Quiz.question7.value;
+      var question8= document.Quiz.question8.value;
+      var question9= document.Quiz.question9.value;
+      var question10= document.Quiz.question10.value;
+      var correct =0;
+
+      if(question1=="right"){
+        correct=correct+10;
+      };
+      if(question2=="right"){
+        correct=correct+10;
+      };
+      if(question3=="right"){
+        correct=correct+10;
+      };
+      if(question4=="right"){
+        correct=correct+10;
+      };
+      if(question5=="right"){
+        correct=correct+10;
+      };
+      if(question6=="right"){
+        correct=correct+10;
+      };
+      if(question7=="right"){
+        correct=correct+10;
+      };
+      if(question8=="right"){
+        correct=correct+10;
+      };
+      if(question9=="right"){
+        correct=correct+10;
+      };
+      if(question10 =="right"){
+        correct=correct+10;
+  };
+  document.getElementById("fifth-p").style.visibility="visible";
+  document.getElementById("correctNumber").innerHTML="You've scored " + correct + " %";
+};
+
     </script>
+    <link rel="stylesheet" href="js/script.js">
 
   </body>
 </html>

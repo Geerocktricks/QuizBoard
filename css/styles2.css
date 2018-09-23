@@ -12,6 +12,9 @@ body{
   opacity: 0.9;
 }
 /*  ==================================================================*/
-#second-p,#third-p,#fourth-p{
+#second-p,#third-p,#fourth-p,#fifth-{
   display: none;
+}
+#fifth-p{
+  visibility: hidden;
 }
