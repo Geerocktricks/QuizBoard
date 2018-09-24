@@ -14,15 +14,20 @@
 * Bootstrap
 * Git
 ##Behaviour Driven Development
-|               |                |            |
-|_###Behavior___|:_###Example___:|_###output_:|
-| * progressbar | 25%-50%        |  width     |
-|   changes when|                |changes     |          
-|   you click   |                |            |          
-|   next.       |                |            |     
-|  *returns     | You scored:20% | You scored:|          
-|               |                |            |
-|               |                |            |
+
+| Behavior      | Example       | output|
+| ------------- |:-------------:| -----:|
+| progressbar   |  25%-50%      |  width     |
+| changes when  |               |changes     |          
+| you click     |               |            |          
+|   next.       | You scored:20%| You scored:20% |
+|  returns      |           
+|  your score   |    |
+
+
+
+
+
 ## Support and contact details
 Mail me at geerockface4@gmail.com
 ### License
