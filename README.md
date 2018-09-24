@@ -13,6 +13,16 @@
 * jquery
 * Bootstrap
 * Git
+##Behaviour Driven Development
+|               |                |            |
+|_###Behavior___|:_###Example___:|_###output_:|
+| * progressbar | 25%-50%        |  width     |
+|   changes when|                |changes     |          
+|   you click   |                |            |          
+|   next.       |                |            |     
+|  *returns     | You scored:20% | You scored:|          
+|               |                |            |
+|               |                |            |
 ## Support and contact details
 Mail me at geerockface4@gmail.com
 ### License
